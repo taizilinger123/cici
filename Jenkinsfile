@@ -5,6 +5,8 @@ pipeline {
       steps {
         sh '''#!/bin/bash 
 cat /etc/hostname'''
+        sh '''#!/bin/bash  
+cat  /etc/hostname'''
       }
     }
   }
